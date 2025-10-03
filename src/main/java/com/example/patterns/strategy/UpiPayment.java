@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.patterns.strategy;
 
 public class UpiPayment implements PaymentStrategy {
     private String upiId;

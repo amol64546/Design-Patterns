@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.patterns.strategy;
 
 public class StrategyDemo {
     public static void main(String[] args) {
