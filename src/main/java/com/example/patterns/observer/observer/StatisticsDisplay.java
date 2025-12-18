@@ -6,7 +6,7 @@ public class StatisticsDisplay implements DisplayElement, Observer{
     private float temperature;
     private float humidity;
     private float pressure;
-    private WeatherData weatherData;
+    private final WeatherData weatherData;
 
     public StatisticsDisplay(WeatherData weatherData){
         this.weatherData = weatherData;
